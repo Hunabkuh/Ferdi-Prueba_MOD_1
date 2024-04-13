@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Ferdi-HTML_CSS/Img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+#saltar-menu {
+    display: none;
+    position: relative;
+    left: -1000px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#cont-festivales {
+    margin-top: 80px;
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    width: 70%;
+}
+
+.tarjeta-festival {
+    margin: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    box-shadow: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.tarjeta-festival h3 {
+    background-color: aliceblue;
+    color: blue;
+    font-size: x-large;
+}
+
+.div-foto-fest {
+    width: 100%;
+    height: auto;
+}
+
+.cont-footer {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
